@@ -63,7 +63,7 @@ ion-icon {
     width: 40%;
 }
 input:focus {
-    font-size: 18px;
+    font-size: 17px;
     border: 1px solid #f8f9fa;
     outline: none;
     box-shadow: 1px 1px 5px rgb(94, 94, 94);
@@ -129,4 +129,23 @@ input:focus {
 .footer-links li a {
     color:rgb(109, 109, 109);
     text-decoration: none;
+}
+
+@media (max-width:500px) {
+    .input-group input  {
+
+        width: 80%;
+    }
+
+    .btn {
+        visibility: hidden;
+    }
+
+    .footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
 }
