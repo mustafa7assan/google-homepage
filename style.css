@@ -1,0 +1,121 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    /*background-color:#eee;*/
+    font-family: arial,sans-serif;
+    font-size: 15px;
+}
+
+.navbar {
+    width: 100vw;
+    position: fixed;
+    top:0;
+    background-color:white;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 15px;
+    display: flex;
+}
+.nav-links {
+    padding-bottom: 5px;
+    display: flex;
+
+}
+.nav-links li {
+    padding-top:10px;
+    display: inline;
+    margin-right: 20px;
+    font-size: 13px;
+}
+.nav-links li a {
+    text-decoration:none;
+    color:rgb(32, 28, 28);
+}
+
+ion-icon {
+    position:relative;
+    top:-3px;
+    font-size: 25px;
+    color:rgb(32, 28, 28);
+}
+#user-img { 
+    border-radius: 50%;
+    width: 27px;
+    height: 27px;
+}
+.conatiner {
+    width: 100%;
+    padding-top: 150px;
+    text-align: center;
+}
+
+.search-form {
+    padding-top: 20px;
+}
+.input-group input  {
+    border: 1px solid #f8f9fa;
+    border-radius: 20px;
+    padding: 12px 45px;
+    width: 40%;
+}
+input:focus {
+    border: 1px solid #f8f9fa;
+    outline: none;
+    box-shadow: 1px 1px 5px rgb(94, 94, 94);
+}
+.input-group ion-icon {
+    position: relative;
+    top: 8px;
+    font-size: 23px;
+    color: #9c9c9c;
+}
+.input-group .mic {
+    right: 43px;
+}
+
+.input-group .search {
+    right:-45px;
+}
+.btns {
+    padding-top: 30px;
+}
+.btn a {
+    color: #3c4043;
+    text-decoration: none;
+}
+.btn {
+    border:none;
+    padding:12px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+}
+.footer {
+    padding:12px 27px;
+    width: 100vw;
+    position: fixed;
+    bottom: 0px;
+    background-color: #eeeeee;
+    display:flex;
+    justify-content:space-between;
+    border-top:1px solid #b8b8b8;
+}
+.footer-links li {
+    font-size: 14px;
+    display: inline;
+    margin-right: 15px;
+}
+.footer-links li a {
+    color:rgb(109, 109, 109);
+    text-decoration: none;
+}
