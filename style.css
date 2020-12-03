@@ -36,6 +36,9 @@ body {
     text-decoration:none;
     color:rgb(32, 28, 28);
 }
+.nav-links li a:hover {
+    text-decoration:underline;
+}
 
 ion-icon {
     position:relative;
