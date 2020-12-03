@@ -147,5 +147,12 @@ input:focus {
         align-items: center;
     }
 
+    .right {
+        padding-bottom: 10px;
+        order:1;
+    }
+    .left {
+        order:2;
+    }
 
 }
